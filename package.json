@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "description": "A simple open-source LMS (Learning Management System).",
+  "repository": "https://github.com/TJSeabury/didaktos.git",
+  "bugs": {
+    "url": "https://github.com/TJSeabury/didaktos/issues"
+  },
+  "homepage": "",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Tyler Seabury <ardent.intent@pm.me>",
+  "contributors": [],
+  "dependencies": {
+    "next": "latest",
+    "next-auth": "latest",
+    "nodemailer": "^6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17",
+    "@types/react": "^18.0.15",
+    "typescript": "^4"
+  }
+}
